@@ -14,6 +14,12 @@ A simple Python CLI tool to automatically clean messy CSV files.
 
 ---
 
+## Demo
+![csv-cleaner demo](demo_nord.gif)
+<sub> Demo recorded using <a href="https://github.com/sepehrmhmdi/termogen">Termogen</a></sub>
+
+---
+
 ## Installation
 
 ```bash
@@ -37,7 +43,7 @@ python cleaner.py sample_dirty.csv cleaned.csv \
 ## Example Output
 
 ```
-📊 CLEANING REPORT
+ CLEANING REPORT
 ------------------------------
 ✔ Initial rows        : 9
 ✔ Final rows          : 5
