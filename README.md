@@ -1,6 +1,6 @@
 # Smart CSV Cleaner
 
-A simple Python CLI tool to automatically clean messy CSV files.
+A simple Python CLI tool to clean and preprocess messy CSV files.
 
 ## Features
 
@@ -15,8 +15,10 @@ A simple Python CLI tool to automatically clean messy CSV files.
 ---
 
 ## Demo
-![csv-cleaner demo](demo_nord.gif)
-<sub> Demo recorded using <a href="https://github.com/sepehrmhmdi/termogen">Termogen</a></sub>
+
+![csv-cleaner demo](/assets/demo_nord.gif)
+
+<sub>Demo recorded using <a href="https://github.com/sepehrmhmdi/termogen">Termogen</a></sub>
 
 ---
 
@@ -31,7 +33,7 @@ pip install -r requirements.txt
 ## Usage
 
 ```bash
-python cleaner.py sample_dirty.csv cleaned.csv \
+python3 cleaner.py sample_dirty.csv cleaned.csv \
   --dedup email \
   --drop-missing email \
   --lowercase \
@@ -43,21 +45,21 @@ python cleaner.py sample_dirty.csv cleaned.csv \
 ## Example Output
 
 ```
- CLEANING REPORT
+CLEANING REPORT
 ------------------------------
-✔ Initial rows        : 9
-✔ Final rows          : 5
-✔ Removed rows        : 4
-  ↳ empty rows        : 1
-  ↳ duplicates        : 2
-  ↳ missing values    : 1
+Initial rows        : 9
+Final rows          : 5
+Removed rows        : 4
+  empty rows        : 1
+  duplicates        : 2
+  missing values    : 1
 ```
 
 ---
 
 ## Sample Data
 
-The file `sample_dirty.csv` intentionally contains:
+The file `sample_dirty.csv` intentionally includes:
 
 * duplicate rows
 * inconsistent date formats
@@ -68,6 +70,4 @@ The file `sample_dirty.csv` intentionally contains:
 
 ## Purpose
 
-This project demonstrates how to build a simple but practical tool for cleaning real-world CSV data using Python.
-
-
+This project demonstrates how to build a simple and practical tool for cleaning real-world CSV data using Python.
