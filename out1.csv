@@ -1,0 +1,8 @@
+name,email,date,city,score
+Alice,alice@example.com,12/03/2026,Grenoble,15.0
+Bob,bob@example.com,2026-03-12,Lyon,20.0
+Alice,alice@example.com,12-03-2026,Grenoble,15.0
+Charlie,,2026/03/14,Paris,
+David,david@example.com,14/03/2026,Grenoble,18.0
+Eve,eve@example.com,2026-03-15,Paris,22.0
+Frank,frank@example.com,invalid_date,Marseille,30.0
